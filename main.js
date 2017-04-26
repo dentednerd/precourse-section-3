@@ -1,8 +1,8 @@
 $(document).ready(function() {
     $("nav").mouseover(function() {
-          $(this).css("border-radius", "10px"); 
+      $(this).css("border-radius", "10px"); 
     });
-        $("nav").mouseout(function() {
-          $(this).css("border-radius", "50%"); 
+    $("nav").mouseout(function() {
+      $(this).css("border-radius", "50%"); 
     });
 });

@@ -61,16 +61,21 @@ nav ul li:before {
     content:""; }
        
 nav ul li {
-   font:normal 20px Fjalla One, sans-serif;
+   font:normal 24px Fjalla One, sans-serif;
    color:#ffe;
    text-transform:uppercase;
-   line-height:24px; }
+   line-height:28px; }
 
 nav ul li a {
     color:#ffe;
     text-shadow:0px 2px 0px #d88; }
+
+    nav ul li a:hover {
+    color:#fe9;
+    text-shadow:0px 0px 10px #ffe; }
    
 #description {
+   font: bold 28px Fjalla One, sans-serif;
    text-align:left;
    padding:5px 0 0 0;
    color: #faa;
