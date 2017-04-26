@@ -5,23 +5,24 @@
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
 	<title>Dented Nerd Reviews</title>
 	<link rel="stylesheet" type="text/css" href="style.css" />
-	<link rel="javascript" type="text/javascript" href="main.js" />
+	<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+	<script type="text/javascript" src="main.js"></script>
 	<link rel="icon" href="{Favicon}"/>
 	<link href='http://fonts.googleapis.com/css?family=Satisfy|Fjalla+One|Lusitana' rel='stylesheet' type='text/css'>
-	<meta name="description" content="What is the description even?"/>
+	<meta name="description" content="Reviews of books, TV shows, albums and video games."/>
 </head>
 
 <body>
 	<div id="wrapper">
 		<header>
-			<h1><a href="{BlogURL}">Dented Nerd Reviews</a></h1>
+			<h1>Dented Nerd Reviews</h1>
    			<nav>
    				<ul>
-   					<li><a href="reading.html">Reading</a></li> 
-   					<li><a href="watching.html">Watching</a></li>
-   					<li><a href="hearing.html">Hearing</a></li>
-   					<li><a href="playing.html">Playing</a></li>
-   					<li><a href="index.html">Home</a></li>
+   					<li class="lit"><a href="reading.html">Reading</a></li> 
+   					<li class="lit"><a href="watching.html">Watching</a></li>
+   					<li class="lit"><a href="hearing.html">Hearing</a></li>
+   					<li class="lit"><a href="playing.html">Playing</a></li>
+   					<li class="lit"><a href="index.html">Home</a></li>
    				</ul>
    			</nav>
 		</header>
@@ -35,6 +36,20 @@
 				listen to and play, so that you too can be as cool as I am.<br />
 				<br />
 				You can always find me online at my proper website, <a href="http://www.dentednerd.co.uk">Dented Nerd</a>.
+			</section>
+		</article>
+
+		<article>
+			<h2>How I made this</h2>
+			<section>
+				<ol>
+					<li>Took an old Tumblr theme I made.</li>
+					<li>Externalised the CSS.</li>
+					<li>Removed the Tumblr-specific tags from the HTML and CSS files.</li>
+					<li>Created the other HTML pages and filled them with content.</li>
+					<li>Added div.mediaWrapper to fit the Youtube videos and Spotify players into the design</li>
+					<li>Added jQuery script to change the shape of nav on mouseover/mouseout.</li>
+				</ol>
 			</section>
 		</article>
 
