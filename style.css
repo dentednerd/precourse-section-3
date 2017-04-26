@@ -1,3 +1,5 @@
+@import url('http://fonts.googleapis.com/css?family=Satisfy|Fjalla+One|Lusitana');
+
 * {
    padding: 0px;
    margin: 0px; }
@@ -7,7 +9,7 @@ img {
 
 /*LAYOUT*/ 
 body {
-   background:#ffe url({image:Background image}) center fixed no-repeat;
+   background:#ffe;
    font: normal 20px Lusitana, serif;
    letter-spacing:-1px;
    color: {color:Text};
