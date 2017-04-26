@@ -1,0 +1,229 @@
+* {
+   padding: 0px;
+   margin: 0px; }
+
+img {
+   border: 0px; }
+
+/*LAYOUT*/ 
+body {
+   background:#ffe url({image:Background image}) center fixed no-repeat;
+   font: normal 20px Lusitana, serif;
+   letter-spacing:-1px;
+   color: {color:Text};
+   line-height:28px; }
+ 
+#wrapper {
+   width: 800px;
+   min-height:750px;
+   margin:0 auto; }
+
+header {
+   position:relative;
+   border-bottom:double 3px #ddc;
+   margin:40px 0px 0 0px;
+   padding:20px 0px 0px 0px;
+   display: flex;
+   flex-flow: row nowrap;
+   justify-content: space-between;
+   align-items: flex-end; }
+   
+h1, h1 a {
+   width:100%;
+   height:90px;
+   overflow:hidden;
+   padding:0;
+   margin:-10px 0 5px 5px;
+   font: normal 70px Satisfy, cursive;
+   line-height:90px;
+   color:#acc;
+   text-shadow:1px 1px 0px #ffe, 3px 3px 0px #eed; }
+       
+nav {
+   position:absolute;
+   top:0;
+   right:0;
+   border-radius: 50%;
+   width: 200px;
+   height: 200px;
+   background:#faa;
+   display:flex;
+   flex-flow:column nowrap;
+   justify-content:center;
+   align-items:center;
+   text-align:right; }
+   
+nav ul {
+    text-align:center;
+    list-style-type:none; }
+
+nav ul li:before {
+    content:""; }
+       
+nav ul li {
+   font:normal 20px Fjalla One, sans-serif;
+   color:#ffe;
+   text-transform:uppercase;
+   line-height:24px; }
+
+nav ul li a {
+    color:#ffe;
+    text-shadow:0px 2px 0px #d88; }
+   
+#description {
+   text-align:left;
+   padding:5px 0 0 0;
+   color: #faa;
+   height:80px;
+   text-shadow:1px 1px 0px #eed; }
+
+/*POST LAYOUT*/
+article {
+    background:#acc;
+    width:800px;
+    margin:80px auto;
+    padding:50px 0;
+    height:auto !important;
+     }
+    
+img {
+    width:400px;
+    max-width:400px !important;
+    margin:0px 50px; }
+
+section {
+    width:500px;
+    margin:0px auto;
+    padding:40px;
+    background:#ffc;
+    box-shadow:0px 2px 4px #9bb;}
+
+.mediaWrapper {
+  position: relative;
+  padding-bottom: 56.25%; /* 16:9 */
+  padding-top: 25px;
+  height: 0;
+}
+.mediaWrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+   
+/*TEXT STYLES*/
+p {
+    margin: 20px 0 0 0; }
+
+p:first-child {
+    margin:0; }
+    
+a {
+    text-decoration:none;
+    color:#977; }
+
+h2 {
+    background:#fe9;
+    text-align:center;
+    margin:0px auto;
+    font: bold 40px Fjalla One, sans-serif;
+    letter-spacing:-2px;
+    color:#977;
+    width:660px;
+    padding:40px 20px;
+    text-shadow:1px 1px 0px #fe9, 3px 3px 0px #ed8;
+    box-shadow:0px 2px 4px #9bb; }
+
+h2:first-letter {
+    font:bold 60px Satisfy, cursive; 
+    line-height:40px;
+    text-shadow:1px 1px 0px #fe9, 3px 3px 0px #ed8; }
+
+h2 a {
+    text-decoration:none;
+    color:#faa; }
+
+h2.quote {
+    font:bold 50px Satisfy, cursive; 
+    line-height:40px;
+    text-shadow:1px 1px 0px #fe9, 3px 3px 0px #ed8; }
+
+h2 a:hover {
+    color:#fbb; }
+    
+/*BLOCKQUOTES*/
+blockquote {
+    background:#faa;
+    border-left:solid 9px #e99;
+    font-size:18px;
+    line-height:18px;
+    padding:9px;
+    margin:10px 0; }
+    
+blockquote p {
+    margin: 18px 0 0 0; }
+
+blockquote p:first-child {
+    margin:0; }
+
+blockquote a {
+    font-style:normal; }
+blockquote img {
+    width:95%;  }
+
+  ul, ol {
+   margin:40px;}
+
+
+/*NOTES*/
+div.notes {
+   width:500px;
+   margin:-40px auto 0 auto;
+   padding:0; }
+   
+div.notes ul {
+   display:inline;
+   margin:0 0 20px 0;
+   padding:0 0 20px 0; }
+       
+div.notes ul li {
+   display:inline-block;
+   background:#faa; 
+   margin:0 5px 5px 0;
+   padding:0 5px;
+   border-left:solid 5px #e99; }
+           
+div.notes ul li a {
+   color:#000; }
+
+div.notes ol.notes {
+   list-style-type: none;
+   margin:20px 0 0 0;
+   padding:0;  }
+ 
+div.notes ol.notes li.note {
+   margin:0px;
+   padding: 0 0 20px 0;
+   line-height:64px;  }
+      
+div.notes ol.notes li.note a {
+   color:#acc;
+   text-shadow:1px 1px 0px #eed; }
+      
+div.notes ol.notes li.note:first-child {
+   padding: 0 0 20px 0; }
+      
+div.notes ol.notes li.note .answer_content {
+   font-weight: normal; }
+      
+div.notes ol.notes li.note img.avatar {
+   vertical-align:-24px;
+   margin-right:5px;}
+      
+div.notes ol.notes li.note blockquote {
+   margin:20px 0;}
+      
+div.notes ol.notes li.note blockquote a {
+   color:#000;
+   text-shadow:none; }
